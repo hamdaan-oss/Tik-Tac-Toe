@@ -105,8 +105,12 @@ footer{
     justify-content: center;
     justify-items: center;
 }
+
+
+
 @media screen and (max-Width: 500px)
 {
+
     h1{
         margin: 30px;
         font-size: 40px;
