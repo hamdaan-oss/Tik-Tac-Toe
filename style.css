@@ -1,0 +1,150 @@
+*{
+    
+    pad: 0px;
+    margin: 0px;
+}
+
+/* Light mode styles */
+.light-mode {
+    background-color: beige; /* Light background */
+    color: #000000; /* Dark text color */
+}
+
+/* Button styles in light mode */
+.light-mode .box {
+    background-color: lightgray; /* Light gray background for boxes */
+    color: #000000; /* Dark text color for box content */
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: gray; /* Dark background */
+    color: #ffffff; /* Light text color */
+}
+
+/* Button styles in dark mode */
+.dark-mode .box {
+    background-color: #333338; /* Dark gray background for boxes */
+    color: #ffffff; /* Light text color for box content */
+}
+
+#mode{
+    margin: 8px;
+    height: 2rem;
+    border-radius: 0.6rem;
+    background: #000;
+    color: aliceblue;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+}
+
+h1{
+    margin: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{ 
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game #buttun{
+    height: 60vmin;
+    width: 60vmin;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 5px;
+    height: 18vmin;
+    width: 18vmin;
+    align-items: center;
+    border-radius: 1.3rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: rgb(223, 171, 104);
+}
+
+
+
+#resetbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetbtn{
+    height: 2rem;
+    border-radius: 0.6rem;
+    background: #000;
+    color: aliceblue;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+}
+
+#msg{
+    color: burlywood gray;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
+
+footer{
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+@media screen and (max-Width: 500px)
+{
+    h1{
+        margin: 30px;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .game{ 
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game #buttun{
+        height: 30vmin;
+        width: 80vmin; 
+        padding-bottom: 8rem;  
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #msg{
+        color: burlywood gray;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        height: 50px;
+        width: 300px;
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+}
